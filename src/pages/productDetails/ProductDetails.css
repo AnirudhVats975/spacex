@@ -1,0 +1,128 @@
+.prodcutsDetailsWrapper{
+    margin-top: 70px;
+    width: 100%;
+}
+
+.menProductDetailsImg{
+    margin-top: 50px;
+}
+
+.menProductDetailsImg img{
+    width: 95%;
+}
+
+.menProductDetails{
+    margin-top: 50px;
+    padding: 0 25px;
+}
+
+.manProductDetailsHeading{
+    font-size: 23px;
+    font-weight: 500;
+    width: 80%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.menproductDetailsPrice{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.menProductDetailsColor{
+    margin-top: 60px;
+}
+
+.selectBox{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.selectBox button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selcetBoxText{
+    color :#6b6b6b;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.menProductDeatilsSize{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.menProductDetailsQuntity{
+    margin-top: 20px;
+}
+
+.menProductDetailsQuntity span{
+    border: 1px solid #ccc;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.quntity{
+    border-left:none ;
+    border-right: none;
+}
+
+.manProductDetailsButton{
+    margin-top: 30px;
+}
+
+@media screen and  (max-width: 850px){
+.col-7{
+    width: 100%;
+}
+
+.col-5{
+    width: 100%;
+}
+
+.prodcutsDetailsWrapper{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.manProductDetailsHeading{
+    width: 100%;
+    font-size: 20px;
+}
+
+.menProductDetails{
+  width: 100%;
+  text-align: center;
+  padding: 0 100px;
+}
+}
+
+@media screen and  (max-width: 540px){
+    .menProductDetails{
+        padding: 0 10px
+    }
+
+
+
+}
+
+
+
+
+
+

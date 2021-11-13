@@ -1,0 +1,113 @@
+.modelBoxWrapper {
+    height: 85vh;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    position: flex;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.modelBoxInnerWrapper {
+    width: 50%;
+    height: 100%;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modelBoxImg {
+    width: 70%;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.modelBoxImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.modelBoxDetails {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modelBoxDetails {
+    text-align: center;
+}
+
+.ModelColorDetails {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.modelColorName {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+.modelColorBox {
+    height: 12px;
+    width: 12px;
+    display: block;
+    background: black;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 45px;
+    top: 5px;
+}
+
+.Modelprice {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Modelprice {
+    flex: 1;
+}
+
+@media screen and  (max-width: 820px){
+.modelBoxWrapper{
+ width: 70%;
+}
+
+.modelBoxInnerWrapper{
+    width: 60%;
+}
+
+}
+
+@media screen and  (max-width: 520px){
+    .modelBoxWrapper{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+       }
+
+       .modelBoxInnerWrapper{
+        width: 80%;
+    }
+
+}

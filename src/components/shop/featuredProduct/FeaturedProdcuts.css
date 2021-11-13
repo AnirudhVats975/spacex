@@ -1,0 +1,51 @@
+.FeaturedProdcutsWrapper{
+width: 100%;
+}
+
+.FeaturedProdcutsWrapper .mainHeading{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.featuredWapper{
+    width: 100%;
+    padding: 10px;
+}
+
+.featuredWapper .featuredImg{
+  width: 100%;
+
+}
+
+.featuredWapper .featuredImg:hover{
+cursor: pointer;
+}
+
+.featuredWapper .featuredImg img{
+ width: 100%;
+}
+
+.featuredDetails{
+    width: 100%;
+    text-align: center;
+}
+
+.featuredDetails h5{
+ font-weight: 500;
+ font-size: 13px;
+ letter-spacing: 1px;
+}
+
+.featuredDetails p{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.buttonWapper{
+    width: 100%;
+    text-align: center;
+}

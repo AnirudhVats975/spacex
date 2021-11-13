@@ -1,0 +1,70 @@
+.updatesWrapper{
+  
+    background: black;
+}
+
+.updatesInnerWrapper{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.updateContainer{
+    width: 50%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.updatesImg{
+    height: 300px;
+}
+
+.updatesImg img{
+    width: 100%;
+    object-fit: cover;
+     height: 100%;
+    
+}
+
+.updateInfo p{
+color: rgb(214, 213, 213);
+font-size: 12px;
+font-weight: 200;
+margin: 20px 0 7px 0;
+}
+
+
+.updateInfo h3{
+    font-weight: 600;
+}
+
+.updateInfo a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+
+}
+
+.updateInfo a i{
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+
+.updateInfo a:hover i{
+    margin-left: 4px;
+}
+
+@media screen and  (max-width: 620px){
+    .updateContainer{
+     width: 100%;
+    }
+
+    .updatesImg{
+     height: 200px
+    }
+}
+

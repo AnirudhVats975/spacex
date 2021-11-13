@@ -1,0 +1,110 @@
+.leftToggleWrapper {
+    width: 26%;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 11px 4px 6px -9px rgba(3, 3, 3, 0.43);
+    -webkit-box-shadow: 11px 4px 6px -9px rgba(3, 3, 3, 0.43);
+    -moz-box-shadow: 11px 4px 6px -9px rgba(3, 3, 3, 0.43);
+    overflow-y: hidden;
+    position: fixed;
+}
+
+.leftToggleInnerWrapper{
+    height: 100%;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.leftToggleClose{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.leftToggleClose button{
+    border: none;
+    outline: none;
+    background : none;
+}
+
+.leftToggleClose button i{
+    font-size: 21px;
+    color: #5c5c5c;
+ 
+}
+
+.lefttoggleContent{
+ margin-top: 50px;
+}
+
+.borderBottom{
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 10px;
+}
+
+.lefttoggleContent button{
+ width: 100%;
+ padding: 5px ;
+ border: none;
+ outline: none;
+ background: none;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 15px;
+}
+
+.accordenHeading{
+    color: #5c5c5c;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.leftNavLinks{
+ width: 100%;
+}
+
+.leftNavLinks ul{
+margin-left: 20px;
+}
+
+.leftNavLinks ul li{
+ list-style: none;
+ margin-top: 10px;
+}
+
+.leftNavLinks ul li a{
+text-decoration: none;
+font-size: 12px;
+color: #8c8c8c;
+font-weight: 500;
+letter-spacing: 1.5px;
+}
+
+
+.leftNavLinks ul li a:hover{
+color: #5c5c5c;
+}
+
+@media screen and  (max-width: 820px){
+.leftToggleWrapper {
+ width: 35%;
+}
+}
+
+@media screen and  (max-width: 560px){
+    .leftToggleWrapper {
+        width: 60%;
+       }
+}
+
+
+
+
+
+

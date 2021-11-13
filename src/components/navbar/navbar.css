@@ -1,0 +1,142 @@
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mainNav{
+    background: none;
+}
+
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.navbarLeft{
+    flex: 1;
+}
+
+.navbarLeft img{
+   width: 150px;
+   height:auto;
+}
+
+.navbarCenter{
+flex: 6;
+}
+
+.navbarRight{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.navbarCenter ul{
+    display: flex;   
+}
+
+.navbarCenter ul li{
+list-style: none;
+margin-left: 20px;
+}
+
+
+.navbarCenter ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 12px;
+}
+
+.navbarRight ul{
+  display: flex;
+ 
+
+}
+
+.navbarRight ul li {
+    font-size: 14px;
+    list-style: none;
+}
+
+
+
+.navbarRight ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 12px;
+
+    
+}
+
+.navbarRight ul li button{
+    margin-left: 30px;
+    background: none;
+   border: none;
+   outline: none;
+}
+
+.navbarRight ul li button i {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navbar ul li a{
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  padding: 2px 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.navbar ul li a::after{ 
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+  .navbar ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  @media screen and  (max-width: 820px){
+    
+  .navbarCenter{
+      display: none;
+  }
+
+  .shop{
+      display: none;
+  }
+
+  .navbarLeft{
+      flex: 6;
+      text-align: center;
+  }
+
+  }
+
+

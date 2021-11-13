@@ -1,0 +1,84 @@
+.spaceFlightWrapper{
+    width: 100%;
+    height: 100vh;
+    background: black;
+ }
+
+ .spaceFlightInnerWapper{
+     height: 100%;
+     width: 90%;
+     display: flex;
+     margin: 0 auto;
+
+ }
+
+ .spaceFlightContent{
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     flex-direction: column;
+     width: 50%;
+  
+ }
+
+ .missionInfo{
+    color: #fff;
+}
+
+
+ .spaceFlightContent .missionInfo p{
+  letter-spacing: 1.5px;  
+ }
+
+
+ .spaceFlightContent .missionInfo h3{
+      font-size:45px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      transform:scaleY(1.2) ;
+      -webkit-transform:scaleY(1.2) ;
+      -moz-transform:scaleY(1.2) ;
+      -ms-transform:scaleY(1.2) ;
+      -o-transform:scaleY(1.2) ;
+}
+
+
+.missionInfo p{
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 5px;
+
+}
+
+ .spaceFlightImg{
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .spaceFlightImg .missionImg img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+
+ .missionInfo .buttonWrapper{
+ margin-top: 20px;
+ }
+
+@media screen and  (max-width: 820px){
+
+ }
+
+ @media screen and  (max-width: 670px){
+    .spaceFlightImg{
+        display: none;
+    }
+
+
+}
+
+
+

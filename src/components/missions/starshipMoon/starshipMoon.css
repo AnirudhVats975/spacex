@@ -1,0 +1,26 @@
+.starshipMoonWrapper{
+    width: 100%;
+    height: 90vh;
+    background: url(../../../image/web/starship.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    
+    .starshipMoonContent p, h3{
+     color: #fff;
+    }
+    
+    .starshipMoonContent p{
+        font-weight: 100px;
+    
+    }
+    
+    .starshipMoonContent h3{
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }

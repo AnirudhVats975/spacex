@@ -1,0 +1,57 @@
+.menProductWrapper{
+    margin-top: 70px;
+}
+
+.menProductWrapper h3{
+    margin: 100px 0 25px 0 ;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 1px;
+  
+}
+
+.MenProduct{
+    width: 100%;
+    padding: 7px;
+    margin:20px 0;
+}
+
+.menProductImg img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.menProductName{
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.menProductPrice{
+    width: 100%;
+    text-align: center;
+}
+.menProductPrice span{
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  
+}
+
+
+@media screen and  (max-width: 850px){
+
+    .col-3{
+        width: 33%;
+    }
+
+}
+
+@media screen and  (max-width: 540px){
+    .col-3{
+        width: 50%;
+    }
+}

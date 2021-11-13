@@ -1,0 +1,46 @@
+.shopHeaderWrapper{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.shopHeaderWrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shopHeaderContent{
+    position: absolute;
+}
+
+.shopHeaderContent h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 35px;
+    
+}
+
+@media screen and  (max-width: 850px){
+.shopHeaderWrapper{
+    margin-top: 60px;
+}
+
+.shopHeaderContent h2{
+    font-size: 35px;
+}
+
+}
+
+@media screen and  (max-width: 850px){
+    .shopHeaderWrapper{
+        margin-top: 50px;
+    }
+}

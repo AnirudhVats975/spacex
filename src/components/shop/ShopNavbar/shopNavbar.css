@@ -1,0 +1,245 @@
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    z-index: 999;
+    border-bottom: 0.01px solid  rgba(140, 140, 140, 0.3);
+
+}
+
+.shopNav{
+    position: fixed;
+    top: 0px;
+}
+
+.toggleWraper{
+ flex: 1;
+ display: none;
+}
+
+.toggleWraper button{
+ border: none;
+ outline: none;
+ background: none;
+}
+
+.toggleWraper button i{
+    background-color:none;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.shopNavbar {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandName {
+    flex: 1;
+}
+
+.brandName img {
+    width: 150px;
+    height: auto;
+}
+
+.shopLinks {
+    flex: 3;
+    height: 100%;
+
+}
+
+.shopLinks ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.shopLinks ul li {
+    list-style: none;
+    padding-left: 20px;
+    height: 100%;
+    margin-top: 50px;
+
+}
+
+.shopLinks ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.accountLink {
+    flex: 2;
+}
+
+.mobile{
+    display: none;
+}
+
+.accountLink ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.accountLink ul li {
+    list-style: none;
+    margin-left: 20px;
+   
+}
+
+.accountLink ul li span{
+    margin-left: 5px;
+}
+
+.accountLink ul li:first-child {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.accountLink ul li a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.accountLink ul li a:hover{
+    color: #fff;
+}
+
+.desktop .cartStyle{
+    color: #fff;
+}
+
+/* dropDown  */
+ul.dropDown{
+    background: black;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    border: 0.5px solid rgba(140, 140, 140, .3);
+    width: 170px;
+    border-top:2px solid #fff ;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    height: 120px;     
+}
+
+ul.Dheight{
+    height: 60px;
+}
+
+ul.dropDown > div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+ul.dropDown > div li{
+    margin-top: 10px;
+}
+
+
+ul.dropDown > div li a{
+    font-weight: 300;
+    font-size: 12px;
+    -webkit-transform: scaleX(0.3);
+    transform: scaleX(0.3);
+    -moz-transform: scaleX(0.3);
+    -ms-transform: scaleX(0.3);
+    -o-transform: scaleX(0.3);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+ul.dropDown > div li a:hover{
+color: #5c5c5c;
+}
+
+li.Navlink:hover ul.dropDown{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.mensContent ul li a{
+text-decoration: none;
+font-weight: 300;
+}
+
+
+@media screen and  (max-width: 850px){
+    nav{
+        height: 65px;
+    }
+
+    .toggleWraper{
+    display: block;
+    flex: 1;
+    }
+
+    .toggleWraper button i{
+        font-size: 18px;
+    }
+
+    .brandName{
+        flex: 5;
+        text-align: center;
+    }
+
+   .shopLinks{
+       display: none;
+   }
+
+   .desktop{
+       display: none;
+   }
+
+   .mobile{
+       display: block;
+       flex: 1;
+   }
+
+   
+.accountLink ul li {
+    margin-left: 0;
+}
+
+}
+
+@media screen and  (max-width: 550px){
+ nav{
+        height: 50px;
+        
+    }
+
+    .toggleWraper button i{
+        font-size: 15px;
+    }
+
+    .accountLink ul li {
+        margin-left: 0;
+    }
+}
