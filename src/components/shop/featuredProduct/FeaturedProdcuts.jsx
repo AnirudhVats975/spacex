@@ -2,8 +2,8 @@ import React from 'react';
 import './FeaturedProdcuts.css';
 import FeaturedImg1 from '../../../image/shop/UNISEX_STARSHIP_PULLOVER_BONE_BACK.png';
 import FeaturedImg2 from '../../../image/shop/UNISEX_DRAGON_ZIPPER.png';
-
 import Button from './../../button/Button';
+import { Link } from 'react-router-dom';
 
 const FeaturedProdcuts = () => {
     return (
@@ -16,7 +16,9 @@ const FeaturedProdcuts = () => {
                         <div className="col-6">
                             <div className="featuredWapper">
                                 <div className="featuredImg">
+                                    <Link to="/collections/mens">
                                 <img src={FeaturedImg1} alt="" />
+                                </Link>
                                 </div>
                                 <div className="featuredDetails">
                                    <h5>UNISEX STARSHIP PULLOVER HOODIE</h5>
@@ -28,7 +30,9 @@ const FeaturedProdcuts = () => {
                         <div className="col-6">
                         <div className="featuredWapper">
                                 <div className="featuredImg">
+                                <Link to="/collections/mens">
                                 <img src={FeaturedImg2} alt="" />
+                                </Link>
                                 </div>
                                 <div className="featuredDetails">
                                    <h5>UNISEX STARSHIP PULLOVER HOODIE</h5>
@@ -38,6 +42,7 @@ const FeaturedProdcuts = () => {
                         </div>
                     </div>
                    <div className="buttonWapper">
+                       
                       <Button background="black" text="VIEW ALL FEATURED" borderColor="black"/>
                    </div>
                 </div>

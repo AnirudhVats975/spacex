@@ -44,7 +44,7 @@ const CartReducer = (state = initState, action) =>{
            state.products[index] = findProduct;
            return {
                ...state,
-               totalPrice: state.totalPrice - findProduct.totalPrice, totalQuantities: state.totalQuantities - 1
+               totalPrice: findProduct.price - findProduct.quantity * findProduct.price, totalQuantities: state.totalQuantities - 1
            }
         } else {
             return state;

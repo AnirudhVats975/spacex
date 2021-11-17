@@ -53,10 +53,7 @@ margin-left: 10px;
         flex-direction: column;
     }
 
-    .socialLink{
-        width: 100%;
-         text-align: center;
-    }
+  
 
     .copyRight{
         width: 100%;
@@ -68,15 +65,23 @@ margin-left: 10px;
         width: 100%;
     }
 
+    .socialLink{
+       flex: 1;
+    }
+
     .socialLink ul {
         width: 100%;
-        text-align: center;
+        height: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+
     }
 
     .socialLink ul li{
         list-style: none;
         margin-left: 5px;
-
+    
     }
 
     .socialLink ul li a{
