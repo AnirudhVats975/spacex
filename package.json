@@ -13,12 +13,9 @@
     "react-redux": "^7.2.6",
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^5.3.0",
-<<<<<<< HEAD
     "react-scripts": "4.0.3",
-=======
     "react-scripts": "4.0.1",
     "react-slick": "^0.28.1",
->>>>>>> b066bf3ce31b0396ea98867649de1eea1d589a28
     "redux": "^4.1.1",
     "redux-devtools-extension": "^2.13.9",
     "styled-components": "^5.3.3",
